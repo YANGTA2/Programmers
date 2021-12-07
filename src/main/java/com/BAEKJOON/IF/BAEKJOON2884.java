@@ -29,6 +29,8 @@ public class BAEKJOON2884 {
             m = 60 - 45 + m;
             h = ( h - 1 >= 0) ? --h : 23;
         }
+        sc.close();
+        
         return h + " " + m;
     }
 }

@@ -23,6 +23,7 @@ public class BAEKJOON14681 {
         } else {
             result = (y > 0) ? 2 :  3;
         }
+        sc.close();
 
         return result;
     }
