@@ -19,7 +19,9 @@ public class BAEKJOON10871 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int x = Integer.parseInt(br.readLine().split(" ")[1]);
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int x = Integer.parseInt(st.nextToken());
 
         StringTokenizer arr = new StringTokenizer(br.readLine());
         while(arr.hasMoreTokens()){
