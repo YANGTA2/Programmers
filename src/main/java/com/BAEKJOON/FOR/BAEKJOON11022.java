@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class BAEKJOON11022 {
-
     public static void main(String[] args) throws IOException {   
         BAEKJOON11022 sol = new BAEKJOON11022();
         sol.solution();
