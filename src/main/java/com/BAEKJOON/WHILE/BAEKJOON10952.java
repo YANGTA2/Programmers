@@ -1,42 +1,32 @@
 package com.BAEKJOON.WHILE;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class BAEKJOON10952 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         
         BAEKJOON10952 sol = new BAEKJOON10952();
         sol.solution();
         
     }
 
-    private void solution() throws IOException {
+    private void solution() {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        Scanner sc = new Scanner(System.in);
 
         boolean result = true;
 
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        while(result){
+            int a = sc.nextInt();
+            int b = sc.nextInt();
 
-        while(st.hasMoreTokens()){
-            while(result){
-                int a = Integer.parseInt(st.nextToken());
-                int b = Integer.parseInt(st.nextToken());
-    
-                if(a+b == 0) {
-                    result = false;
-                } else {
-                    bw.write(a+b);
-                }
-                bw.flush();
+            if(a+b == 0) {
+                result = false;
+            } else {
+                System.out.println(a + b);
             }
         }
+        sc.close();
     }
 }
