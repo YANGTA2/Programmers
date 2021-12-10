@@ -24,7 +24,7 @@ public class BAEKJOON1110 {
 
         while(insert != result){
             // result = insert;
-            if(insert < 10){
+            if(temp < 10){
                 int x = a;
                 int y = (int)((temp/10 - (int)temp/10)*10+0.1);
 
@@ -43,7 +43,6 @@ public class BAEKJOON1110 {
                 cnt++;
             }
         }
-
         System.out.println(cnt);
     }
 }
