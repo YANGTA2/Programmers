@@ -4,12 +4,12 @@ public class BAEKJOON15596 {
 
     public long sum(int[] a) {
 
-        long result = 0;
+        long ans = 0;
 
         for(int num : a){
-            result += num;
+            ans += num;
         }
 
-        return result;
+        return ans;
     }
 }
