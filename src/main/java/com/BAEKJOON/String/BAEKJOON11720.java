@@ -18,7 +18,7 @@ public class BAEKJOON11720 {
         int result = 0;
 
         for(int i = 0; i < str.length(); i++){
-            result += str.charAt(i)-'0';
+            result += str.charAt(i) - '0';
         }
         sc.close();
 
