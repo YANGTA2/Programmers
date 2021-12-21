@@ -2,27 +2,20 @@ package com.BAEKJOON.String;
 
 import java.util.Scanner;
 
-public class BAEKJOON1152 {
+public class BAEKJOON1316 {
     
     public static void main(String[] args) {
         
-        BAEKJOON1152 sol = new BAEKJOON1152();
+        BAEKJOON1316 sol = new BAEKJOON1316();
         System.out.println(sol.solution());
     }
     
     public int solution(){
-        
+
         Scanner sc = new Scanner(System.in);
-        String word = sc.nextLine();
-        
-        String[] split = word.trim().split(" ");
-        
+
         int result = 0;
-        if(split[0] != ""){
-            result = split.length;
-        }
-        
-        sc.close();
+
         return result;
     }
 }
