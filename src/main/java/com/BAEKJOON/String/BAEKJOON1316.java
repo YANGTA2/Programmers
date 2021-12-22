@@ -13,9 +13,9 @@ public class BAEKJOON1316 {
     public int solution(){
 
         Scanner sc = new Scanner(System.in);
-
         int result = 0;
 
+        sc.close();
         return result;
     }
 }
