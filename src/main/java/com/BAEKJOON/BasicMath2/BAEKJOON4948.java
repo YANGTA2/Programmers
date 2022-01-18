@@ -45,8 +45,7 @@ public class BAEKJOON4948 {
                 System.out.println(cnt);
             }
         }
-        
-        
+
         sc.close();
     }
 }
