@@ -2,11 +2,11 @@ package com.BAEKJOON.BruteForce;
 
 import java.util.Scanner;
 
-public class BAEKJOON2798 {
-    
+public class BAEKJOON2231 {
+
     public static void main(String[] args) {
         
-        BAEKJOON2798 sol = new BAEKJOON2798();
+        BAEKJOON2231 sol = new BAEKJOON2231();
         System.out.println(sol.solution());
         
     }
@@ -25,29 +25,24 @@ public class BAEKJOON2798 {
         }
 
         int result = 0;
-
-        for(int i = 0; i < n; i++){
-
-            if(arr[i] > m) continue;
-
-            for(int j = i+1; j < n; j++){
-
-                if(arr[i] + arr[j] > m) continue;
-
-                for(int k = j+1; k < n; k++){
-                    int temp = arr[i] + arr[j] + arr[k];
-                    if(temp == m){
-                        return temp;
-                    }
-
-                    if(temp > result && temp < m){
-                        result = temp;
-                    }
-                }
-            }
-        }
         sc.close();
 
+        for(int i = 0; i < n; i++){
+            
+            int temp = 0;
+            int num = i;
+
+            while(num != 0){
+                temp += num % 10;
+                num /= 10;
+            }
+
+            if(temp + i == n){
+                result = i;
+                break;
+            }
+        }
+        
         return result;
     }
 }
