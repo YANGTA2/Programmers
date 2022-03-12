@@ -1,4 +1,4 @@
-package com.SKPLANET;
+package com.codingTest.SKPLANET;
 
 class Second{
     public static void main(String[] args) {

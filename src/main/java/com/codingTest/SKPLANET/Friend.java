@@ -1,4 +1,4 @@
-package com.SKPLANET;
+package com.codingTest.SKPLANET;
 
 import java.util.ArrayList;
 import java.util.Collection;

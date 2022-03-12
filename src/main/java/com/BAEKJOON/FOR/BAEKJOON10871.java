@@ -20,7 +20,7 @@ public class BAEKJOON10871 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken());
+        /* int n = */ Integer.parseInt(st.nextToken());
         int x = Integer.parseInt(st.nextToken());
 
         StringTokenizer arr = new StringTokenizer(br.readLine());

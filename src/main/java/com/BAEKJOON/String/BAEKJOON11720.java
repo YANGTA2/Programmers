@@ -13,7 +13,7 @@ public class BAEKJOON11720 {
     public int solution(){
         
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        /* int n = */ sc.nextInt();
         String str = sc.next();
         int result = 0;
 

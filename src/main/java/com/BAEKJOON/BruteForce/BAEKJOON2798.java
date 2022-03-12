@@ -23,6 +23,8 @@ public class BAEKJOON2798 {
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
+        
+        sc.close();
 
         int result = 0;
 
@@ -46,8 +48,6 @@ public class BAEKJOON2798 {
                 }
             }
         }
-        sc.close();
-
         return result;
     }
 }

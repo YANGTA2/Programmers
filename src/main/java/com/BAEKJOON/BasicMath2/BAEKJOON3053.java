@@ -21,7 +21,7 @@ public class BAEKJOON3053 {
         System.out.println(Math.pow(r, 2)*pi);
         
         // 택시 기하학 값
-        double taxiR = Math.sqrt(Math.pow(r, 2)*2);
+        // double taxiR = Math.sqrt(Math.pow(r, 2)*2);
         // System.out.println(Math.pow(taxiR, 2));
         System.out.println(r*r*2);
 

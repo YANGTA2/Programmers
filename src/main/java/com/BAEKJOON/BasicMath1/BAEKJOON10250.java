@@ -16,7 +16,7 @@ public class BAEKJOON10250 {
         int t = Integer.parseInt(sc.nextLine());
         for(int i = 0; i < t; i++){
             int h = sc.nextInt();
-            int w = sc.nextInt();
+            /* int w = */ sc.nextInt();
             int n = sc.nextInt();
 
             int y = n % h;
